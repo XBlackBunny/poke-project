@@ -1,0 +1,22 @@
+#navbar{
+    background: #FF4848;
+    height: 100%;
+}
+#toggle-side-nav-button{
+    background: #FF4848;
+    border-color: #FF4848;
+    height: 2.2em;
+    width: 1.5em;
+    border-top-right-radius:7px;
+    border-bottom-right-radius: 7px;
+    padding: 0;
+}
+.button-part{
+    margin: 0;
+    height: 7px;
+    margin-left: 3px;
+}
+#main-container{
+    height: 97vh;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+<div id="main-content" ng-sidebar-content>
+    <h1>Pokemon app test!</h1>
+    <div *ngIf="pokemon != null && pokemon !== undefined">
+        <h2>Information</h2>
+        <label>Name : {{pokemon.name}}</label>
+        <label>Id : {{pokemon.id}}</label>
+        <label>Base Xp : {{pokemon.baseExperience}}</label>
+        <label>Height : {{pokemon.height}}</label>
+        <label>Weight : {{pokemon.weight}}</label>
+        <label>Order : {{pokemon.order}}</label>
+        <h2>Abilities</h2>
+        <div *ngFor="let ability of pokemon.abilities">
+            <label>{{ability.name}}</label>
+        </div>
+    </div>
+</div>

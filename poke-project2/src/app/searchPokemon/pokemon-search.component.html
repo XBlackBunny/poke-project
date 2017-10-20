@@ -1,0 +1,14 @@
+<div class="search-group">
+    <label for="search-pokemon">Search : </label>
+    <input #searchBox id="search-pokemon" (keyup)="search(searchBox.value)"/>
+</div>
+<div class="search-result-group">
+    <h3>
+        Result
+    </h3>
+    <ul class="searchResultList">
+        <li class="searchResultListItem" *ngFor="let pokemon of pokemons" (click)="selectionChanged(pokemon)">
+            <a class="content">{{pokemon.name}}</a>
+        </li>
+    </ul>
+</div>

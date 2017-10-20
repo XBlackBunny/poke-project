@@ -1,0 +1,38 @@
+.search-group{
+    background: #FF7979;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1em
+}
+h3{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.searchResultList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.searchResultListItem:hover{
+    background-color: #FFA7A7;
+    left: .3em;
+    border-left: 10px solid #5549FF;
+}
+.searchResultListItem{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #FF8181;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: .7em;
+    border-left: 10px solid #FF3232;
+}
+
+.searchResultListItem .content{
+    padding-left: 1em;
+}

@@ -1,0 +1,15 @@
+<mat-sidenav-container id="main-container">
+    <mat-sidenav id="navbar" mode="side" [(opened)]="opened">
+        <div>
+            <app-pokemon-search (pokemonChange)="pokemonChanged($event)"></app-pokemon-search>
+        </div>
+    </mat-sidenav>
+
+    <div id="toggle-side-nav-button" (click)="_toggleSidebar()">
+        <p class="button-part">---</p>
+        <p class="button-part">---</p>
+        <p class="button-part">---</p>
+    </div>
+
+    <app-pokemon-component [pokemon]="pokemon"></app-pokemon-component>
+</mat-sidenav-container>
