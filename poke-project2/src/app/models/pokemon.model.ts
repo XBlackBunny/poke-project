@@ -1,4 +1,4 @@
-import { Ability } from './ability-small.model';
+import { Ability } from './ability.model';
 
 const jsonToObjectKeys = {
     'id': 'id',
